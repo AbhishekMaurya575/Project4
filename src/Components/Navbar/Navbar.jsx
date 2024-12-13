@@ -6,7 +6,7 @@ import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <nav className="bg-black/40 w-full text-white h-[70px] lg:h-[10vh] flex justify-around items-center">
+    <nav className="bg-white w-full text-black h-[70px] lg:h-[10vh] flex justify-around items-center">
       <div>
         <FaBars className="h-[35px] w-[32px] sm:hidden"/>
       </div>
