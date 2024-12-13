@@ -4,8 +4,8 @@ import { FaSearch,FaMicrophone } from "react-icons/fa";
 
 const NavbarSer = ({ className }) => {
   return (
-    <div className={` w-[50%]  md:w-[40%] lg:w-[50%] justify-center items-center flex ${className}`}>
-      <div className="flex bg-white justify-around items-center p-2 rounded-full w-[80%]">
+    <div className={` w-[50%]  md:w-[40%] lg:w-[50%] justify-center items-center flex ${className} `}>
+      <div className="flex bg-white justify-around items-center p-2  w-[80%] border-2 rounded-full">
         <FaSearch className="h-[20px] m-1 text-black" />
         <input
           type="text"
