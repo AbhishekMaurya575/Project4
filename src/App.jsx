@@ -1,4 +1,5 @@
-import Home from "./Components/Home"
+import { Outlet } from "react-router-dom"
+import Footer from "./Components/Footer/Footer"
 import Navbar from "./Components/Navbar/Navbar"
 
 
@@ -9,7 +10,8 @@ function App() {
 
 <div className="h-screen">
 <Navbar/>
-<Home/>
+<Outlet/>
+<Footer/>
 </div>
 
   )
