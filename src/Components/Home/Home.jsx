@@ -12,20 +12,9 @@ const Home = () => {
             <div className=" h-[80px] w-[80px] md:h-[100px] md:w-[100px] rounded-full justify-center items-center flex">
               <img src="src\assets\felipepelaquim-6zO5VKogoZE-unsplash.jpg" className=" h-[80px] w-[80px] md:h-[100px] md:w-[100px] rounded-full justify-center items-center flex  hover:h-[90px] hover:w-[90px] hover:md:h-[110px] hover:md:w-[110px]"/>
             </div>
-            <label className="justify-center items-center flex">sareer</label>
+            <label className="justify-center items-center flex">Por 1</label>
           </li>
-          <li className="flex flex-col justify-center items-center  m-1">
-            <div className=" h-[80px] w-[80px] md:h-[100px] md:w-[100px] rounded-full justify-center items-center flex">
-              hi
-            </div>
-            <label className="justify-center items-center flex">sareer</label>
-          </li>
-          <li className="flex flex-col justify-center items-center  m-1">
-            <div className=" h-[80px] w-[80px] md:h-[100px] md:w-[100px] rounded-full justify-center items-center flex">
-              hi
-            </div>
-            <label className="justify-center items-center flex">sareer</label>
-          </li>
+         
         </ul>
       </div>
       <div className=" h-[500px] w-full"></div>
